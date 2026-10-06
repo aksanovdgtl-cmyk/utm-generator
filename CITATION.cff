@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite Marat Aksanov and the original online tool."
+type: software
+title: "UTM Link Generator"
+authors:
+  - family-names: "Aksanov"
+    given-names: "Marat"
+    website: "https://aksanov.digital"
+url: "https://aksanov.digital/tools/analytics/utm-generator"
+repository-code: "https://github.com/aksanovdgtl-cmyk/utm-generator"
+license: MIT
+abstract: "Client-side UTM campaign URL builder with 14 channel presets. Includes Google Ads and Yandex Direct macro templates, parameter normalization, copy controls and CSV export."
+keywords:
+  - "utm"
+  - "utm-builder"
+  - "marketing-analytics"
+  - "google-ads"
+  - "yandex-direct"
+  - "javascript"

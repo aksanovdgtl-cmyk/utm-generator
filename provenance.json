@@ -1,0 +1,25 @@
+{
+  "author": "Marat Aksanov",
+  "author_url": "https://aksanov.digital/about",
+  "captured_on": "2026-10-06",
+  "catalog_url": "https://aksanov.digital/tools",
+  "sources": [
+    {
+      "slug": "utm-generator",
+      "original_url": "https://aksanov.digital/tools/analytics/utm-generator",
+      "original_fragment_sha256": "1e2bfb4b86a4f236a80607d2688ff2d9971906994cafe90e46b7712e9e4c94b6",
+      "entrypoint": "index.html",
+      "script_sources": [
+        "src/app.js"
+      ]
+    }
+  ],
+  "modifications": [
+    "Extracted the tool-specific T123 fragment only",
+    "Separated HTML, CSS and JavaScript without changing formulas",
+    "Excluded page JSON-LD, Tilda runtime and site-wide analytics",
+    "Removed custom font-face rules; original fallback stacks remain",
+    "Converted site-relative content links to original absolute URLs",
+    "Added authorship, citation and licensing files"
+  ]
+}
